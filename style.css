@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    color: white;
+    height: 100vh;
+}
+.container .box{
+    padding: 20px 30px;
+    /* width: 400px; */
+    border-radius: 20px;
+    background: linear-gradient(to left,rgb(2, 151, 181),rgb(1, 114, 136),#01404d);
+    box-shadow: 0 0 5px;
+}
+.container .box header{
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+}
+.container .box main .input{
+    padding: 10px 0;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.container .box main .input input{
+    margin: 5px 20px;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.1rem;
+    border-bottom: 2px solid white;
+}
+::placeholder{
+    background: transparent;
+}
+.container .box main .input .btn{
+    display: grid;
+    place-items: center;
+}
+.container .box main .input .btn button{
+    font-size: 1.2rem;
+    padding: 3px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container .box main .div{
+    padding: 10px 0;
+}
+.container .box main .div label{
+    font-size: 1.3rem;
+}
