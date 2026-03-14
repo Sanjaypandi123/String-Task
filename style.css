@@ -12,14 +12,14 @@
     place-items: center;
     color: white;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .container .box{
     padding: 20px 30px;
     /* width: 400px; */
     border-radius: 20px;
     background: linear-gradient(to left,rgb(2, 151, 181),rgb(1, 114, 136),#01404d);
-    box-shadow: 0 0 5px;
+    /* box-shadow: 0 0 10px black; */
 }
 .container .box header{
     display: grid;
