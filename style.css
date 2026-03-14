@@ -12,6 +12,7 @@
     place-items: center;
     color: white;
     height: 100vh;
+    background-color: black;
 }
 .container .box{
     padding: 20px 30px;
